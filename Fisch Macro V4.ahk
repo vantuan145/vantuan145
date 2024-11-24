@@ -1,4 +1,4 @@
-#SingleInstance Force
+-#SingleInstance Force
 setkeydelay, -1
 setmousedelay, -1
 setbatchlines, -1
