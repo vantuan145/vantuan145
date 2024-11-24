@@ -316,7 +316,7 @@ $p::
 ;====================================================================================================;
 
 gosub, Calculations
-settimer, runtime, 5000
+settimer, runtime, 1000
 
 tooltip, Press "O" to Reload, %TooltipX%, %Tooltip4%, 4
 tooltip, Press "M" to Exit, %TooltipX%, %Tooltip5%, 5
