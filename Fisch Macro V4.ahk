@@ -51,13 +51,13 @@ ShakeMode := "Navigation"
 FishBarColorTolerance := 5
 
 ; Seconds for click shake to be considered failed
-ClickShakeFailsafe := 30
+ClickShakeFailsafe := 10
 ; Color range to scan for "shake" text
-ClickShakeColorTolerance := 0.5
+ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
-ClickScanDelay := 200
+ClickScanDelay := 100
 ; How many scans before clicking regardless of repeats
-RepeatBypassCounter := 5
+RepeatBypassCounter := 10
 
 ; Seconds for navigation shake to be considered failed
 NavigationShakeFailsafe := 30
@@ -71,7 +71,7 @@ ManualBarSize := 0
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 10
 ; Color range to scan for initial white bar
-BarSizeCalculationColorTolerance := 5
+BarSizeCalculationColorTolerance := 15
 
 ; Color range to scan for minigame white bar
 WhiteBarColorTolerance := 5
